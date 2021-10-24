@@ -74,9 +74,11 @@ Identifies https or http
 
 - Symbol: `+` Regex Code Snipet: `[\da-z\.-]+` 
 
-Identifies a single digit (\d), lowercase letters a-z, a dot (.), a hyphen (-) within the text. Does not identify lack of presence of these characters.
+Identifies a single digit (\d), lowercase letters (a-z), a dot (.), a hyphen (-) within the text. Does not identify lack of presence of these characters.
 
-- Symbol: `{,}` Regex Code Snipet: 
+- Symbol: `{2,6}` Regex Code Snipet: `[a-z\.]{2,6}`
+
+Identifies multiple lowercase letters (a-z), a dot(.) with a min of 2 characters and a max of 6 characters. This idenfities the URL link at the end, e.g: (.com) (.org) (.ca)
 
 
 
