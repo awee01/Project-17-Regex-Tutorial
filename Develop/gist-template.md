@@ -75,16 +75,7 @@ These are located at the front and back of the regex.
  <br>
 
 
-- Symbol: `*` Regex Code Snipet: `[\/\w \.-]*`
 
-  Identifies a slash (/) followed by string of words (\w). Also identifies lack of a slash(/).
-
-![ex3](https://user-images.githubusercontent.com/85651950/138584812-61a4dc60-2852-440c-b700-a78961adba45.png)
-
- <br>
- <br>
- <br>
- 
  
 - Symbol: `+` Regex Code Snipet: `[\da-z\.-]+` 
 
@@ -110,6 +101,16 @@ These are located at the front and back of the regex.
  <br>
  <br>
  
+ 
+ - Symbol: `*` Regex Code Snipet: `[\/\w \.-]*`
+
+  Identifies a slash (/) followed by string of words (\w). Also identifies lack of a slash(/).
+
+![ex3](https://user-images.githubusercontent.com/85651950/138584812-61a4dc60-2852-440c-b700-a78961adba45.png)
+
+ <br>
+ <br>
+ <br>
  
  
 
