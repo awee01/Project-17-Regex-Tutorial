@@ -36,7 +36,6 @@ Examples 4,5 will are not identified as a valid URL
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
@@ -50,17 +49,20 @@ Examples 4,5 will are not identified as a valid URL
 
 ### Anchors
 
-These are located at the front and back of the regex
+These are located at the front and back of the regex.
 
 ![ex1](https://user-images.githubusercontent.com/85651950/138584054-320ddecd-992b-49c7-ae73-1fa32fd2747e.png)
-
 
 - `^`  **Caret Anchor**:  Beginning of string element of the URL.
 - `$`  **Dollar Anchor**:  End of string element of the URL. 
 
 ### Quantifiers
 
-### OR Operator
+- `\*` - matches a single character that is a digit
+- `\w` - matches a word character (alphanumeric character plus underscore)
+
+Character classes distinguish kinds of characters such as letters and digits. This `([a-z\.]{2,6})` character class checks for for small letters from `a to z` at least two to six characters of the preceding string.
+
 
 ### Character Classes
 
