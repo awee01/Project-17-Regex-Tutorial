@@ -30,6 +30,9 @@ This is an example of a regex pattern used to idenfity a valid URL:
 
 ### Anchors
 
+- `^` - Start of string, or start of line in multi-line pattern
+- `$` - End of string, or end of line in multi-line pattern
+
 ### Quantifiers
 
 ### OR Operator
