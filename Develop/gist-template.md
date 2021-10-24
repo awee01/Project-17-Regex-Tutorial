@@ -55,6 +55,7 @@ These are located at the front and back of the regex.
 
 - Symbol: `^` 
  Beginning of string element of the URL.
+
 - Symbol: `$`  
 End of string element of the URL. 
 
