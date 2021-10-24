@@ -12,6 +12,18 @@ This is an example of a regex pattern used to idenfity a valid URL:
 /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]_)_\/?$/
 ```
 
+1. https://www.google.com
+2. http://www.google.com
+3. www.google.com
+4. htt://www.google.com
+5. ://www.google.com
+
+Testing the following string inputs: 
+
+Examples 1,2,3, will identify a valid URL
+Examples 4,5 will are not identified as a valid URL
+
+
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -30,8 +42,8 @@ This is an example of a regex pattern used to idenfity a valid URL:
 
 ### Anchors
 
-- `^` - Start of string, or start of line in multi-line pattern
-- `$` - End of string, or end of line in multi-line pattern
+- `^`  **Caret Anchor**:  Beginning of string element of the URL.
+- `$`  **Dollar Anchor**:  End of string element of the URL. 
 
 ### Quantifiers
 
