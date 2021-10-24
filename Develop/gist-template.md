@@ -127,13 +127,13 @@ For example: `[a-z\.]` defines a range of lowercase letters between a to z
 
 ### Greedy and Lazy Match
 
-'Greedy' refers to a match of a text that includes all possible identifiers.
+**'Greedy'** refers to a match of a text that includes all possible identifiers.
 
-'Lazy' refers to a match of a text in where the search specification stops as soon as one example has been found
+**'Lazy'** refers to a match of a text in where the search specification stops as soon as one example has been found
 
 <br>
 
-**Example: **
+**Example:**
 
 Test String : stackoverflow
 
