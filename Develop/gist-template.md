@@ -60,6 +60,11 @@ These are located at the front and back of the regex.
 - Symbol: `$`
 
   End of string element of the URL. 
+  
+ <br>
+ <br>
+  
+  
 
 ### Quantifiers
 
