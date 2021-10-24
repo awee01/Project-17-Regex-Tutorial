@@ -109,9 +109,9 @@ These are located at the front and back of the regex.
 
 ### Character Classes
 
-Symbol: `\d` - matches a single digit. 
+Symbol: `\d` - Matches a single digit. 
 
-Symbol: `\w` - matches a single word character. Can consist of multiple strings, numbers and underscores.
+Symbol: `\w` - Matches a single word character. Can consist of multiple strings, numbers and underscores.
 
 
 
@@ -123,11 +123,26 @@ For example: `(https?:\/\/)` captures the value of `https://`
 
 ### Bracket Expressions
 
-Symbol: `[-]` Bracket Expression Range
+Symbol: `[-]`-  Bracket Expression Range
 
 For example: `[a-z\.]` defines a range of lowercase letters between a to z
 
 ### Greedy and Lazy Match
+
+'Greedy' refers to a match of a text that includes all possible identifiers.
+
+'Lazy' refers to a match of a text in where the search specification stops as soon as one example has been found
+
+Example: 
+test string : stackoverflow
+greedy reg expression : s.*o output: stackoverflo
+lazy reg expression : s.*?o output: stacko
+
+`*` `+` `{}` are greedy quantifiers
+Add a `?` to convert greedy into not greedy, i.e lazy
+
+
+
 
 
 
