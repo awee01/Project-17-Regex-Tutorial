@@ -68,7 +68,7 @@ These are located at the front and back of the regex.
 
 - Symbol: `?` Regex Code Snipet: `https?`
 
-  Identifies https or http
+  Identifies https or http, important requirements for a website url.
 
 ![ex2](https://user-images.githubusercontent.com/85651950/138584769-f49cc3c2-04cf-4742-b3e9-8c612b51e5e4.png)
 
