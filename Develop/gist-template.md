@@ -53,14 +53,18 @@ These are located at the front and back of the regex.
 
 ![ex1](https://user-images.githubusercontent.com/85651950/138584234-a13aab9f-468b-45a9-9bae-9b6738ae7cdc.png)
 
-- Symbol: `^`  Beginning of string element of the URL.
-- Symbol: `$`  End of string element of the URL. 
+- Symbol: `^` 
+ Beginning of string element of the URL.
+- Symbol: `$`  
+End of string element of the URL. 
 
 ### Quantifiers
 
-- Symbol: `*` Regex Code Snipet: 
+- Symbol: `*`
+ Regex Code Snipet: 
 
-- Symbol: `+` Regex Sode Snipet: `[\da-z\.-]+` 
+- Symbol: `+`
+ Regex Sode Snipet: `[\da-z\.-]+` 
 
 Identifies a single digit (\d), lowercase letters a-z, a dot (.), a hyphen (-) within the text. Does not identify lack of presence of these characters
 
