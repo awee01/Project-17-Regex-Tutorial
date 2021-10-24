@@ -18,7 +18,7 @@ This is an example of a regex pattern used to idenfity a valid URL:
 
 **3.**  www<span></span>.google.com
 
-**4. ** htt://www<span></span>.<span></span>google.com
+**4.** htt://www<span></span>.<span></span>google.com
 
 **5.**  ://www<span></span>.<span></span>google.com
 
