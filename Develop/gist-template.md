@@ -15,8 +15,8 @@ This is an example of a regex pattern used to idenfity a valid URL:
 1. https://<span></span>www<span></span>.<span></span>google.com
 2. http://<span></span>www<span></span>.<span></span>google.com
 3. www<span></span>.google.com
-4. htt://www.<span></span>google.com
-5. ://www.<span></span>google.com
+4. htt://www<span></span>.<span></span>google.com
+5. ://www<span></span>.<span></span>google.com
 
 Testing the following string inputs: 
 
