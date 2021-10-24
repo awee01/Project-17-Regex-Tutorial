@@ -141,9 +141,9 @@ Function searches for all examples of "o"
 
 <br>
 
-Greedy regex : s.*o output: stackoverflo
+Greedy regex : _s.*o output: stackoverflo_
 
-Lazy regex : s.*?o output: stacko
+Lazy regex : _s.*?o output: stacko_
 
 <br>
 
