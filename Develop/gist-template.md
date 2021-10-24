@@ -77,7 +77,7 @@ These are located at the front and back of the regex.
 
  <br>
  <br>
- <br>
+
  
 - Symbol: `+` Regex Code Snipet: `[\da-z\.-]+` 
 
@@ -87,8 +87,7 @@ These are located at the front and back of the regex.
 
  <br>
  <br>
- <br>
- 
+
 - Symbol: `{2,6}` Regex Code Snipet: `[a-z\.]{2,6}`
 
   Identifies multiple lowercase letters (a-z), a dot(.) with a min of 2 characters and a max of 6 characters. This idenfities the URL link at the end, e.g: (.com) (.org) (.ca)
@@ -97,7 +96,7 @@ These are located at the front and back of the regex.
 
  <br>
  <br>
- <br>
+
  
  - Symbol: `*` Regex Code Snipet: `[\/\w \.-]*`
 
@@ -107,9 +106,13 @@ These are located at the front and back of the regex.
 
  <br>
  <br>
- <br>
+
 
 ### Character Classes
+
+`\d` - matches a single digit
+
+`\w` - matches a single word character
 
 ### Flags
 
