@@ -53,10 +53,12 @@ These are located at the front and back of the regex.
 
 ![ex1](https://user-images.githubusercontent.com/85651950/138584234-a13aab9f-468b-45a9-9bae-9b6738ae7cdc.png)
 
-- Symbol: `^` 
+- Symbol: `^`
+
  Beginning of string element of the URL.
 
-- Symbol: `$`  
+- Symbol: `$`
+
 End of string element of the URL. 
 
 ### Quantifiers
