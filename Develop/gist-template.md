@@ -50,6 +50,11 @@ Examples 4,5 will are not identified as a valid URL
 
 ### Anchors
 
+These are located at the front and back of the regex
+
+![ex1](https://user-images.githubusercontent.com/85651950/138584054-320ddecd-992b-49c7-ae73-1fa32fd2747e.png)
+
+
 - `^`  **Caret Anchor**:  Beginning of string element of the URL.
 - `$`  **Dollar Anchor**:  End of string element of the URL. 
 
