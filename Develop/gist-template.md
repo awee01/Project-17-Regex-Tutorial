@@ -135,10 +135,15 @@ For example: `[a-z\.]` defines a range of lowercase letters between a to z
 
 Example: 
 test string : stackoverflow
+
 greedy reg expression : s.*o output: stackoverflo
+
 lazy reg expression : s.*?o output: stacko
 
+<br>
+
 `*` `+` `{}` are greedy quantifiers
+
 Add a `?` to convert greedy into not greedy, i.e lazy
 
 
