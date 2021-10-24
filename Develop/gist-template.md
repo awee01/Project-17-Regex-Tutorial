@@ -133,7 +133,10 @@ For example: `[a-z\.]` defines a range of lowercase letters between a to z
 
 'Lazy' refers to a match of a text in where the search specification stops as soon as one example has been found
 
+<br>
+
 Example: 
+
 test string : stackoverflow
 
 greedy reg expression : s.*o output: stackoverflo
