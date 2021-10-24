@@ -9,7 +9,7 @@ In this tutorial, the regex will check to see if a given URL is a valid URL for 
 This is an example of a regex pattern used to idenfity a valid URL:
 
 ```
-/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]_)_\/?$/
+/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
 ```
 
 **1.**  https://<span></span>www<span></span>.<span></span>google.com
@@ -51,7 +51,7 @@ Examples 4,5 will are not identified as a valid URL
 
 These are located at the front and back of the regex.
 
-![ex1](https://user-images.githubusercontent.com/85651950/138584054-320ddecd-992b-49c7-ae73-1fa32fd2747e.png)
+![ex1](https://user-images.githubusercontent.com/85651950/138584234-a13aab9f-468b-45a9-9bae-9b6738ae7cdc.png)
 
 - `^`  **Caret Anchor**:  Beginning of string element of the URL.
 - `$`  **Dollar Anchor**:  End of string element of the URL. 
