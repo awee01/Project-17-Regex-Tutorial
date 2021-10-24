@@ -162,10 +162,6 @@ Add a `?` to convert greedy into not greedy, i.e lazy
 
 
 
-
-
-
-
 ## Author
 
 My name is Adi Wee and I am a student and beginner level developper at the University of Toronto Bootcamp studying Full Stack Web Development. 
