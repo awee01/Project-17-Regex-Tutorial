@@ -67,15 +67,15 @@ End of string element of the URL.
 
  Identifies a slash (/) followed by string of words (\w). Also identifies lack of a slash(/).
 
-- Symbol: `+` Regex Sode Snipet: `[\da-z\.-]+` 
+- Symbol: `+` Regex Code Snipet: `[\da-z\.-]+` 
 
 Identifies a single digit (\d), lowercase letters a-z, a dot (.), a hyphen (-) within the text. Does not identify lack of presence of these characters.
 
+- Symbol: `?` Regex Code Snipet: `https?`
 
-- Symbol: `?`
+Identifies https or http
 
 
-Character classes distinguish kinds of characters such as letters and digits. This `([a-z\.]{2,6})` character class checks for for small letters from `a to z` at least two to six characters of the preceding string.
 
 
 ### Character Classes
