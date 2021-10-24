@@ -153,8 +153,13 @@ Add a `?` to convert greedy into not greedy, i.e lazy
 
 | Greedy quantifier  | 	Lazy quantifier | 	Description |
 | ------------- | ------------- | ------------- |
-| ```*```  | `*?` | Commences the string elements of the URL link.  |
-| ```+```  | `+?` | Ends/closes out the string elements of the URL link.  |
+| `*`  | `*?` | 0 or more  |
+| `+`  | `+?` | 1 or more  |
+| `{n}`	| `{n}?`	| exactly n |
+| `{n,}`	| `{n,}?`	| n or more |
+| `{n,m}`	| `{n,m}?`  | between n and m |
+
+
 
 
 
