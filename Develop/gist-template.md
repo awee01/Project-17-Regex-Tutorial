@@ -60,7 +60,9 @@ These are located at the front and back of the regex.
 
 - `*` Asterisk
 
-- `+` `[\da-z\.-]+` Identifies the presence of a single digit (\d), various lowercase letters ranging from a-z, a single literal dot (.), and/or a single literal hyphen (-) AT LEAST one or more times. This case does NOT identify the lack of presence of that character(s).
+- `+` Regex code snipet: `[\da-z\.-]+` 
+
+Identifies the presence of a single digit (\d), various lowercase letters ranging from a-z, a single literal dot (.), and/or a single literal hyphen (-) AT LEAST one or more times. This case does NOT identify the lack of presence of that character(s).
 
 
 - `?`
