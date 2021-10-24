@@ -53,19 +53,19 @@ These are located at the front and back of the regex.
 
 ![ex1](https://user-images.githubusercontent.com/85651950/138584234-a13aab9f-468b-45a9-9bae-9b6738ae7cdc.png)
 
-- `^`  **Caret Anchor**:  Beginning of string element of the URL.
-- `$`  **Dollar Anchor**:  End of string element of the URL. 
+- `^`  Beginning of string element of the URL.
+- `$`  End of string element of the URL. 
 
 ### Quantifiers
 
-- `*` Asterisk
+- Symbol: `*` Regex Code Snipet: 
 
-- `+` Regex code snipet: `[\da-z\.-]+` 
+- Symbol: `+` Regex Sode Snipet: `[\da-z\.-]+` 
 
-Identifies the presence of a single digit (\d), various lowercase letters ranging from a-z, a single literal dot (.), and/or a single literal hyphen (-) AT LEAST one or more times. This case does NOT identify the lack of presence of that character(s).
+Identifies a single digit (\d), lowercase letters a-z, a dot (.), a hyphen (-) within the text. Does not identify lack of presence of these characters
 
 
-- `?`
+- Symbol: `?`
 
 
 Character classes distinguish kinds of characters such as letters and digits. This `([a-z\.]{2,6})` character class checks for for small letters from `a to z` at least two to six characters of the preceding string.
