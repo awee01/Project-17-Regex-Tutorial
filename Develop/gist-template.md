@@ -54,6 +54,7 @@ These are located at the front and back of the regex.
 ![ex1](https://user-images.githubusercontent.com/85651950/138584234-a13aab9f-468b-45a9-9bae-9b6738ae7cdc.png)
 
 - Symbol: `^`
+
   Beginning of string element of the URL.
 
 - Symbol: `$`
@@ -65,43 +66,51 @@ These are located at the front and back of the regex.
 
 - Symbol: `?` Regex Code Snipet: `https?`
 
-Identifies https or http
+  Identifies https or http
 
 ![ex2](https://user-images.githubusercontent.com/85651950/138584769-f49cc3c2-04cf-4742-b3e9-8c612b51e5e4.png)
 
+ <br>
  <br>
  <br>
 
 
 - Symbol: `*` Regex Code Snipet: `[\/\w \.-]*`
 
- Identifies a slash (/) followed by string of words (\w). Also identifies lack of a slash(/).
+  Identifies a slash (/) followed by string of words (\w). Also identifies lack of a slash(/).
 
 ![ex3](https://user-images.githubusercontent.com/85651950/138584812-61a4dc60-2852-440c-b700-a78961adba45.png)
 
  <br>
  <br>
+ <br>
  
-
+ 
 - Symbol: `+` Regex Code Snipet: `[\da-z\.-]+` 
 
-Identifies a single digit (\d), lowercase letters (a-z), a dot (.), a hyphen (-) within the text. Does not identify lack of presence of these characters.
+  Identifies a single digit (\d), lowercase letters (a-z), a dot (.), a hyphen (-) within the text. Does not identify lack of presence of these characters.
 
 ![ex4](https://user-images.githubusercontent.com/85651950/138584833-8cf0f518-2bab-4a3f-ac65-5426570c9419.png)
 
 
  <br>
  <br>
+ <br>
+ 
  
  
 - Symbol: `{2,6}` Regex Code Snipet: `[a-z\.]{2,6}`
 
-- Identifies multiple lowercase letters (a-z), a dot(.) with a min of 2 characters and a max of 6 characters. This idenfities the URL link at the end, e.g: (.com) (.org) (.ca)
+  Identifies multiple lowercase letters (a-z), a dot(.) with a min of 2 characters and a max of 6 characters. This idenfities the URL link at the end, e.g: (.com) (.org) (.ca)
 
 ![ex5](https://user-images.githubusercontent.com/85651950/138584848-e0361bf7-460f-4c8f-ab28-27b4a3dbc5e1.png)
 
 
  <br>
+ <br>
+ <br>
+ 
+ 
  
 
 
