@@ -66,6 +66,9 @@ End of string element of the URL.
 
 - Symbol: `?` Regex Code Snipet: `https?`
 
+![ex2](https://user-images.githubusercontent.com/85651950/138584769-f49cc3c2-04cf-4742-b3e9-8c612b51e5e4.png)
+
+
 Identifies https or http
 
 - Symbol: `*` Regex Code Snipet: `[\/\w \.-]*`
