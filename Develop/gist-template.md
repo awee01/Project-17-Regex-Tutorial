@@ -37,7 +37,6 @@ Examples 4,5 will are not identified as a valid URL
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
@@ -110,13 +109,17 @@ These are located at the front and back of the regex.
 
 ### Character Classes
 
-`\d` - matches a single digit
+`\d` - matches a single digit. 
 
-`\w` - matches a single word character
+`\w` - matches a single word character. Can consist of multiple strings, numbers and underscores.
 
-### Flags
+
 
 ### Grouping and Capturing
+
+`()` - Round Brackets capture all string inside them. 
+
+For example: `(https?:\/\/)` captures the value of `https://`
 
 ### Bracket Expressions
 
