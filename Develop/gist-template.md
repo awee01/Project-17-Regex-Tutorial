@@ -58,10 +58,13 @@ These are located at the front and back of the regex.
 
 ### Quantifiers
 
-- `*` 
-- `+` 
+- `*` Asterisk
+
+- `+` [\da-z\.-]+ Identifies the presence of a single digit (\d), various lowercase letters ranging from a-z, a single literal dot (.), and/or a single literal hyphen (-) AT LEAST one or more times. This case does NOT identify the lack of presence of that character(s).
+
+
 - `?`
-- `([\da-z\.-]+)` 
+
 
 Character classes distinguish kinds of characters such as letters and digits. This `([a-z\.]{2,6})` character class checks for for small letters from `a to z` at least two to six characters of the preceding string.
 
