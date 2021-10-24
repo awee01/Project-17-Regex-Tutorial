@@ -78,9 +78,6 @@ These are located at the front and back of the regex.
  <br>
  <br>
  <br>
-
-
-
  
 - Symbol: `+` Regex Code Snipet: `[\da-z\.-]+` 
 
@@ -88,12 +85,9 @@ These are located at the front and back of the regex.
 
 ![ex4](https://user-images.githubusercontent.com/85651950/138584833-8cf0f518-2bab-4a3f-ac65-5426570c9419.png)
 
-
  <br>
  <br>
  <br>
- 
- 
  
 - Symbol: `{2,6}` Regex Code Snipet: `[a-z\.]{2,6}`
 
@@ -101,11 +95,9 @@ These are located at the front and back of the regex.
 
 ![ex5](https://user-images.githubusercontent.com/85651950/138584848-e0361bf7-460f-4c8f-ab28-27b4a3dbc5e1.png)
 
-
  <br>
  <br>
  <br>
- 
  
  - Symbol: `*` Regex Code Snipet: `[\/\w \.-]*`
 
@@ -116,9 +108,6 @@ These are located at the front and back of the regex.
  <br>
  <br>
  <br>
- 
- 
-
 
 ### Character Classes
 
