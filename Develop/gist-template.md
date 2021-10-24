@@ -1,10 +1,16 @@
-# Title (replace with your title)
+# Regex-Tutorial: Matching a URL
 
-Introductory paragraph (replace this with your text)
+A regular expression is a sequence of characters that specifies a search pattern. The Regex function is used to extract information from a specified text.
+
+In this tutorial, the regex will check to see if a given URL is a valid URL for a website address.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This is an example of a regex pattern used to idenfity a valid URL:
+
+```
+/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]_)_\/?$/
+```
 
 ## Table of Contents
 
