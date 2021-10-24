@@ -22,6 +22,8 @@ This is an example of a regex pattern used to idenfity a valid URL:
 
 **5.**  ://www<span></span>.<span></span>google.com
 
+<br>
+
 
 **In Testing the following string inputs:**
 
