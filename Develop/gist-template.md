@@ -139,6 +139,10 @@ For example: `[a-z\.]` defines a range of lowercase letters between a to z
 
 Test String : stackoverflow
 
+Function searches for all examples of "o"
+
+<br>
+
 Greedy regex : s.*o output: stackoverflo
 
 Lazy regex : s.*?o output: stacko
