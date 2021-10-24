@@ -70,7 +70,7 @@ Identifies https or http
 
 ![ex2](https://user-images.githubusercontent.com/85651950/138584769-f49cc3c2-04cf-4742-b3e9-8c612b51e5e4.png)
 
-
+ <br>
  <br>
 
 
@@ -80,7 +80,7 @@ Identifies https or http
 
 ![ex3](https://user-images.githubusercontent.com/85651950/138584812-61a4dc60-2852-440c-b700-a78961adba45.png)
 
-
+ <br>
  <br>
  
 
@@ -92,12 +92,12 @@ Identifies a single digit (\d), lowercase letters (a-z), a dot (.), a hyphen (-)
 
 
  <br>
+ <br>
  
-
-
+ 
 - Symbol: `{2,6}` Regex Code Snipet: `[a-z\.]{2,6}`
 
-Identifies multiple lowercase letters (a-z), a dot(.) with a min of 2 characters and a max of 6 characters. This idenfities the URL link at the end, e.g: (.com) (.org) (.ca)
+- Identifies multiple lowercase letters (a-z), a dot(.) with a min of 2 characters and a max of 6 characters. This idenfities the URL link at the end, e.g: (.com) (.org) (.ca)
 
 ![ex5](https://user-images.githubusercontent.com/85651950/138584848-e0361bf7-460f-4c8f-ab28-27b4a3dbc5e1.png)
 
