@@ -63,6 +63,11 @@ End of string element of the URL.
 
 ### Quantifiers
 
+
+- Symbol: `?` Regex Code Snipet: `https?`
+
+Identifies https or http
+
 - Symbol: `*` Regex Code Snipet: `[\/\w \.-]*`
 
  Identifies a slash (/) followed by string of words (\w). Also identifies lack of a slash(/).
@@ -71,10 +76,7 @@ End of string element of the URL.
 
 Identifies a single digit (\d), lowercase letters a-z, a dot (.), a hyphen (-) within the text. Does not identify lack of presence of these characters.
 
-- Symbol: `?` Regex Code Snipet: `https?`
-
-Identifies https or http
-
+- Symbol: `{,}` Regex Code Snipet: 
 
 
 
