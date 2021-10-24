@@ -63,13 +63,13 @@ End of string element of the URL.
 
 ### Quantifiers
 
-- Symbol: `*`
- Regex Code Snipet: 
+- Symbol: `*` Regex Code Snipet: `[\/\w \.-]*`
 
-- Symbol: `+`
- Regex Sode Snipet: `[\da-z\.-]+` 
+ Identifies a slash (/) followed by string of words (\w). Also identifies lack of a slash(/).
 
-Identifies a single digit (\d), lowercase letters a-z, a dot (.), a hyphen (-) within the text. Does not identify lack of presence of these characters
+- Symbol: `+` Regex Sode Snipet: `[\da-z\.-]+` 
+
+Identifies a single digit (\d), lowercase letters a-z, a dot (.), a hyphen (-) within the text. Does not identify lack of presence of these characters.
 
 
 - Symbol: `?`
