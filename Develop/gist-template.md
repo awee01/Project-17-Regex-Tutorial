@@ -123,14 +123,16 @@ For example: `(https?:\/\/)` captures the value of `https://`
 
 ### Bracket Expressions
 
+`[-]` Bracket Expression Range
+
+For example: `[a-z\.]` defines a range of lowercase letters between a to z
+
 ### Greedy and Lazy Match
 
-### Boundaries
 
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Adi Wee and I am a student and beginner level developper at the University of Toronto Bootcamp. 
+
+Get out my Github at: https://github.com/awee01
