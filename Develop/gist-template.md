@@ -109,21 +109,21 @@ These are located at the front and back of the regex.
 
 ### Character Classes
 
-`\d` - matches a single digit. 
+Symbol: `\d` - matches a single digit. 
 
-`\w` - matches a single word character. Can consist of multiple strings, numbers and underscores.
+Symbol: `\w` - matches a single word character. Can consist of multiple strings, numbers and underscores.
 
 
 
 ### Grouping and Capturing
 
-`()` - Round Brackets capture all string inside them. 
+Symbol: `()` - Round Brackets capture all string inside them. 
 
 For example: `(https?:\/\/)` captures the value of `https://`
 
 ### Bracket Expressions
 
-`[-]` Bracket Expression Range
+Symbol: `[-]` Bracket Expression Range
 
 For example: `[a-z\.]` defines a range of lowercase letters between a to z
 
