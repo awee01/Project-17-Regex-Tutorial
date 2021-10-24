@@ -12,11 +12,11 @@ This is an example of a regex pattern used to idenfity a valid URL:
 /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]_)_\/?$/
 ```
 
-1. https://www.google.com
-2. http://www.google.com
-3. www.google.com
-4. htt://www.google.com
-5. ://www.google.com
+1. https://<span></span>www.<span></span>google.com
+2. http://<span></span>www.<span></span>google.com
+3. www<span></span>.google.com
+4. htt://www.<span></span>google.com
+5. ://www.<span></span>google.com
 
 Testing the following string inputs: 
 
