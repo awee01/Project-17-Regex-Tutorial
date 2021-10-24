@@ -151,6 +151,11 @@ Lazy regex : _s.*?o output: stacko_
 
 Add a `?` to convert greedy into not greedy, i.e lazy
 
+| Greedy quantifier  | 	Lazy quantifier | 	Description |
+| ------------- | ------------- | ------------- |
+| ```*```  | `*?` | Commences the string elements of the URL link.  |
+| ```+```  | `+?` | Ends/closes out the string elements of the URL link.  |
+
 
 
 
