@@ -135,13 +135,13 @@ For example: `[a-z\.]` defines a range of lowercase letters between a to z
 
 <br>
 
-Example: 
+**Example: **
 
-test string : stackoverflow
+Test String : stackoverflow
 
-greedy reg expression : s.*o output: stackoverflo
+Greedy regex : s.*o output: stackoverflo
 
-lazy reg expression : s.*?o output: stacko
+Lazy regex : s.*?o output: stacko
 
 <br>
 
@@ -156,6 +156,6 @@ Add a `?` to convert greedy into not greedy, i.e lazy
 
 ## Author
 
-My name is Adi Wee and I am a student and beginner level developper at the University of Toronto Bootcamp. 
+My name is Adi Wee and I am a student and beginner level developper at the University of Toronto Bootcamp studying Full Stack Web Development. 
 
-Get out my Github at: https://github.com/awee01
+Check out my Github at: https://github.com/awee01
